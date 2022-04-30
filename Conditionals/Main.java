@@ -2,7 +2,7 @@
 //      Version1 TechStart program
 //      SkillNett Women Tech Start
 // Training:
-//      WorkJuggle and C2 : Tecnical and Professional Skills program
+//      WorkJuggle and C2 : Technical and Professional Skills program
 //
 // Class: Introduction to Java
 // Instructor: Martina Yusuf
@@ -57,7 +57,7 @@ public class Main {
 //        // Create a code for Traffic Light Colour Green or Red. Using if/else
 //        System.out.println("*****Traffic Light****");
 //        System.out.println("Digit Green or Red: ");
-//        // This method permit users insert string
+//        // This method permit users insert strings
 //        String colour = scanner.nextLine();
 //
 //        if(colour.equalsIgnoreCase("green")){
@@ -71,22 +71,84 @@ public class Main {
         // Task 2 - switch
         // 1 Comment out the previous code. Done✔ ❤⛵
 
-        // 2 Ask the user for a number between 1 and 12.
+        // 2 Ask the user for a number between 1 and 12. Done✔ ❤⛵
+
+//        System.out.println("***** Insert Numbers about Months of the Year *****");
         // This method permit users insert numbers
-        int numchoice = scanner.nextInt();
-        System.out.println(numchoice);
-        // 3 Based on the number, print if the corresponding month is in Spring, Summer, Autumn or Winter.
+//        int month = scanner.nextInt();
+//
+//            switch (month) {
+//                case 1:
+//                    System.out.println("It's January!");
+//                    break;
+//                case 2:
+//                    System.out.println("It's February!");
+//                    break;
+//                case 3:
+//                    System.out.println("It's March!");
+//                    break;
+//                case 4:
+//                    System.out.println("It's April!");
+//                    break;
+//                case 5:
+//                    System.out.println("It's May! ");
+//                    break;
+//                case 6:
+//                    System.out.println("It's June!");
+//                    break;
+//                case 7:
+//                    System.out.println("It's July!");
+//                    break;
+//                case 8:
+//                    System.out.println("It's August!");
+//                    break;
+//                case 9:
+//                    System.out.println("It's September!");
+//                    break;
+//                case 10:
+//                    System.out.println("It's October ");
+//                    break;
+//                case 11:
+//                    System.out.println("It's November ");
+//                    break;
+//                case 12:
+//                    System.out.println("It's December! ");
+//                default:
+//                    System.out.println("Sorry this is not valid number for months of Year!");
+//
+//        }
+        // 3 Based on the number, print if the corresponding month is in Spring,
+        // Summer, Autumn or Winter. Done✔ ❤⛵
+        System.out.println("***** Insert Numbers of Season *****");
+        // This method permit users insert numbers
+        int season = scanner.nextInt();
+        switch (season) {
+            case 2:
+            case 3:
+            case 4:
+                System.out.println("The season is Spring!");
+                break;
+            case 5:
+            case 6:
+            case 7:
+                System.out.println("The season is Summer!");
+                break;
+            case 8:
+            case 9:
+            case 10:
+                System.out.println("The season is Autumn!");
+                break;
+            case 11:
+            case 12:
+            case 1:
+                System.out.println("The season is Winter!");
+                break;
+            default:
+                System.out.println("Sorry this is not valid number for months of Year!");
+
+        }
         // 4 Make sure you let the user know if their number choice was invalid.
-
-        // Task 3 - Calculator
-        // 1 Create a new project called Calculator.
-        // 2 Within the body of the main method ask the user for two numbers.
-        // 3 Ask the user for an operator.
-        // 4 Considering the user’s chosen operator, perform the correct mathematical operation on the supplied numbers.
-        // 5 Make sure the user knows if they input an invalid operator.
-        // 6 Print out the result.
-
-
+        // Done✔ ❤⛵
 
     }
 }
